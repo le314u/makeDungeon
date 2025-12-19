@@ -199,7 +199,11 @@ function gerarDungeon(){
 
     fecharSetup();
 }
-    gerarDungeon()
+
+// chama gerarDungeon quando a página terminar de carregar
+window.onload = function() {
+    gerarDungeon();
+};
 </script>
 </body>
 </html>
